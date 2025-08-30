@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.dist/
+build/
+.venv/
+venv/
+env/
+pip-wheel-metadata/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env & secrets
+.env
+.env.*
+!*.example
+
+# Postgres / Docker (future)
+data/
+postgres-data/
+
+# Hugging Face cache (Windows-friendly)
+.cache/
+hf_cache/
