@@ -43,5 +43,6 @@ copy .env.example .env   # Windows
 # cp .env.example .env   # macOS/Linux
 
 # Create database in Postgres matching .env (DATABASE_NAME)
+alembic upgrade head
 # Then run the server:
 uvicorn app.main:app --reload
